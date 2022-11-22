@@ -1,6 +1,5 @@
 ﻿//Exercise 1 - Nick Carlson
 using MethodsExercise;
-using System.ComponentModel;
 
 Console.WriteLine("Exercise 1:");
 
@@ -42,4 +41,12 @@ int mul = Exercise_2.Multiply(2, 2);
 int div = Exercise_2.Divide(2, 2);
 int mod = Exercise_2.Modulus(2, 2);
 
-Console.WriteLine($"2 + 2 when added gives you the sum of {add}; when subtracted {sub}; when multiplyed {mul}; when divided {div}; and finally with a modulus {mod};");
+Console.WriteLine($"2 + 2 when added gives you the sum of {add}; when subtracted {sub}; when multiplyed {mul}; when divided {div}; and finally with a modulus {mod}!");
+Console.WriteLine();
+
+// Params Stuff
+
+Console.WriteLine("Using a Params list!");
+int[] myIntArray = { 1, 2, 3 };
+
+UsingParams.Params(myIntArray);
